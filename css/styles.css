@@ -1,6 +1,4 @@
-body {
-  background-color: #78BCC4;
-}
+
 
 h1 {
   text-align: center;
@@ -23,6 +21,35 @@ p {
   font-size: 1.2em;
   font-weight: bold;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.adopt-now {
+  color: #B53953;
+  text-decoration: none;
+  clear: left;
+  text-align: center;
+}
+
+.adopt-now a {
+  color: #B53953;
+  text-decoration: underline;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.adopt-now:hover a{
+  color: #466E82;
+}
+
+#button {
+  background-color: lightcoral;
+  color: rgb(242, 220, 220);
+  padding: 10px;
+}
+
+#button:hover {
+  background-color: #FE9677;
+  color: #466E82;
 }
 
 .container .profile:nth-child(1) p {
@@ -60,21 +87,31 @@ img {
   border-radius: 10%;
 }
 
-
-
 @media all and (min-width: 1400px) {
   .profile {
     float: left;
   }
+  body {
+    background-color: #78BCC4;
+    transition: 0.5s;
+  }
 }
 
 @media all and (max-width: 1400px) {
+  body {
+    background-color: #EF798A;
+    transition: 0.5s;
+  }
   .profile {
     margin: 10px auto;
   }
 }
 
 @media all and (max-width: 500px) {
+  body {
+    background-color: #7D82B8;
+    transition: 0.5s;
+  }
   .profile {
     width: 80%;
   }
