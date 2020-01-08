@@ -24,7 +24,7 @@ p {
 
 .profile {
   width: 30%;
-  float: left;
+  min-width: 300px;
   border: 3px aquamarine solid;
   text-align: center;
   padding: 10px;
@@ -34,4 +34,22 @@ p {
 
 h1 {
   text-align: center;
+}
+
+@media all and (min-width: 1400px) {
+  .profile {
+    float: left;
+  }
+}
+
+@media all and (max-width: 1400px) {
+  .profile {
+    margin: 10px auto;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .profile {
+    width: 80%;
+  }
 }
