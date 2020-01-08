@@ -1,0 +1,37 @@
+body {
+  background-color: grey;
+}
+
+img {
+  width: 200px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.container .profile:nth-child(1) p {
+  color: blue;
+}
+
+.container .profile:nth-child(2) p {
+  color: green;
+}
+
+.container .profile:nth-child(3) p {
+  color: purple;
+}
+
+.profile {
+  width: 30%;
+  float: left;
+  border: 3px aquamarine solid;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ebebeb;
+}
+
+h1 {
+  text-align: center;
+}
