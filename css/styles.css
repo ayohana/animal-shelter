@@ -1,40 +1,66 @@
 body {
-  background-color: grey;
+  background-color: #78BCC4;
 }
 
-img {
-  width: 200px;
+h1 {
+  text-align: center;
+  color: #B53953;
+  text-shadow: 2px 3px #240000;
+  font-family: cursive;
+  font-size: 50pt;
+  font-style: italic;
+}
+
+h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30pt;
+  color: #78BCC4;
+  text-shadow: 2px 2px lightslategray;
+  letter-spacing: 2px;
 }
 
 p {
   font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container .profile:nth-child(1) p {
-  color: blue;
+  color: #B5651D;
 }
 
 .container .profile:nth-child(2) p {
-  color: green;
+  color: lightslategray;
 }
 
 .container .profile:nth-child(3) p {
-  color: purple;
+  color: brown;
 }
 
 .profile {
   width: 30%;
   min-width: 300px;
-  border: 3px aquamarine solid;
+  border: 5px #466E82 solid;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   margin: 10px;
-  background-color: #ebebeb;
+  background-color: #FE9677;
 }
 
-h1 {
-  text-align: center;
+.profile:hover {
+  background-color: #B53953;
 }
+
+.profile:hover p.hover {
+  color: #240000;
+}
+
+img {
+  width: 200px;
+  border-radius: 10%;
+}
+
+
 
 @media all and (min-width: 1400px) {
   .profile {
